@@ -5,8 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class TestMain {
 
     @Test
-    public void testInputIsEven(){
-        fwfcwecwe
-        assertTrue(Main.checkIfInputIsAnEvenNumber(22)); // Assertion
+    public void testFailureIgnore(){
+        assertTrue(Main.checkIfInputIsAnEvenNumber(21)); // Assertion
     }
 }
